@@ -27,8 +27,28 @@ div h2, div h3 {
 /*
 .color {
     color: #ff0000;
+    .color {
+    color: rgb(0, 255, 255);
 }
 */
 .color {
-    color: rgb(0, 255, 255);
+    /* border: 5px red  inset; */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    none
+    hidden
+
+    para 3d
+    groove
+    ridge
+    inset
+    outset
+    */
+    border-style:solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
 }
